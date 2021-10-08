@@ -9,7 +9,7 @@ import {Container} from "./styles";
 export function Summary(){
   const { transactions } = useTransactions();
 
-   const summary = transactions.reduce((acc, transaction, isTotalNegative) => {
+   const summary = transactions.reduce((acc, transaction) => {
      if (transaction.type === "deposit") {
 	acc.deposits += transaction.amount;
 	acc.total += transaction.amount;
@@ -17,12 +17,18 @@ export function Summary(){
 	acc.withdraws += transaction.amount;
 	acc.total -= transaction.amount;
      }
+     if (acc.total < 0) {
+	 acc.totalBackground = "highlight-red";
+     } else {
+	 acc.totalBackground = "highlight-green";
+     }
 	return acc;
   },
      {
 	deposits: 0,
 	withdraws: 0,
 	total: 0,
+	totalBackground: "highlight-green",
   })
 
 	return(
@@ -49,7 +55,7 @@ export function Summary(){
 		 currency: 'BRL'}).format(summary.withdraws)}
      </strong>
      </div>
-     <div className="highlight-background">
+     <div className={summary.totalBackground}>
 	<header>
 	   <p>Total</p>
 	   <img src={totalImg} alt="Total"/>

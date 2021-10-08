@@ -1,49 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createServer, Model } from 'miragejs';
 import { App } from './App';
+import { createFakeApi } from './services/api'
 
-createServer({
-  models: {
-     transaction: Model,
-  },
-
-seeds(server) {
-  server.db.loadData({
-     transactions: [
-	{
-	   id: 1,
-	   title: 'Desenvolvimento de website',
-	   type: 'deposit',
-	   category: 'Desenvolvimento',
-	   amount: 11000,
-	   createdAt: new Date('2021-02-12 09:00:00'),
-	},
-	{
-	   id: 2,
-	   title: 'Aluguel',
-	   type: 'withdraw',
-	   category: 'Casa',
-	   amount: 2600,
-	   createdAt: new Date('2021-02-17 12:00:00'),
-	},
-  ],
-  })
-},
-
-  routes() {
-     this.namespace = 'api';
-
-     this.get('/transactions', () => {
-     return this.schema.all('transaction');
-	})
-
-     this.post('/transactions', (schema, request) => {
-	const data = JSON.parse(request.requestBody);
-	return schema.create('transaction', data);
-  })
-     }
-});
+createFakeApi();
 
 ReactDOM.render(
   <React.StrictMode>
