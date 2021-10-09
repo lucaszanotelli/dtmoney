@@ -1,9 +1,13 @@
 import {useTransactions} from "../../hooks/useTransactions";
+
+import closeImg from '../../assets/close.svg';
+
 import {Container} from "./styles";
 
 export function TransactionsTable(){
   
   const { transactions } = useTransactions();
+  const { deleteTransaction } = useTransactions();
 
   return(
   <Container>
@@ -29,6 +33,13 @@ export function TransactionsTable(){
 	      <td>{transaction.category}</td>
 	      <td>
 		 {new Intl.DateTimeFormat('pt-BR').format(new Date(transaction.createdAt))}
+	   </td>
+	   <td>
+	      <button
+	      className="delete-button"
+	      onClick={() => deleteTransaction(transaction.id)}
+	      type="button">
+	      <img src={closeImg} alt="X"/></button>
 	   </td>
 	   </tr>
   ))}

@@ -3,6 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
    margin-top: 4rem;
 
+   .delete-button {
+      border: none;
+      background: rgba(0,0,0,0);
+      filter: brightness(0.1) sepia(1) saturate(10000%);
+   }
+
    table {
       width: 100%;
       border-spacing: 0 0.5rem;
