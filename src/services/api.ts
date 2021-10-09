@@ -2,7 +2,7 @@ import axios from 'axios';
 import { createServer, Model } from 'miragejs';
 
 export const api = axios.create({
-   baseURL: 'http://localhost:3000/api',
+   baseURL: 'http://localhost:5000/api',
 });
 
 export function createFakeApi() {
