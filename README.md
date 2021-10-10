@@ -7,10 +7,9 @@
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lucaszsantos/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Lucas%20Zanotelli-%2333CC95"></a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucaszanotelli/dtmoney?color=%2333CC95">
-  <a href="https://github.com/lucaszanotelli/dtmoney/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucaszanotelli/dtmoney?color=%2333CC95"></a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/lucaszanotelli/dtmoney?color=%2333CC95">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucaszanotelli/dtmoney?color=rgb%2883%2C%20155%2C%20245%29">
+  <a href="https://github.com/lucaszanotelli/dtmoney/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucaszanotelli/dtmoney?color=rgb%2883%2C%20155%2C%20245%29"></a>
+   <img alt="GitHub" src="https://img.shields.io/github/license/lucaszanotelli/dtmoney?color=rgb%2883%2C%20155%2C%20245%29">
 </p>
 
 <p align="center">
