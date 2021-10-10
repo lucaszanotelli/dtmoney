@@ -35,7 +35,7 @@ In this project you can save your transactions and see the total off money.
 
 You can view the project layout through the links below:
 
-- [Layout in Figma](https://www.figma.com/file/)
+- [Layout in Figma](https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy))
 
 > Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
