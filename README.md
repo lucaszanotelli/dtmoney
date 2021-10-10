@@ -7,10 +7,10 @@
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/eliasgcf/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%2333CC95"></a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/dtmoney?color=%2333CC95">
-  <a href="https://github.com/lucaszanotelli/dtmoney/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/dtmoney?color=%2333CC95"></a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/dtmoney?color=%2333CC95">
+  <a href="https://www.linkedin.com/in/lucaszsantos/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Lucas%20Zanotelli-%2333CC95"></a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucaszanotelli/dtmoney?color=%2333CC95">
+  <a href="https://github.com/lucaszanotelli/dtmoney/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucaszanotelli/dtmoney?color=%2333CC95"></a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/lucaszanotelli/dtmoney?color=%2333CC95">
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 ## 💲 About the project
 
-[dt money](https://dtmoney.vercel.app/) is a project created in [Rocketseat](https://rocketseat.com.br/) Ignite ReactJS training.
+[dt money](https://demo-dtmoney.vercel.app/) is a project created in [Rocketseat](https://rocketseat.com.br/) Ignite ReactJS training.
 
 In this project you can save your transactions and see the total off money.
 
@@ -76,6 +76,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with ♥&nbsp; by <a href="https://www.linkedin.com/in/lucaszsantos/">Lucas Zanotelli</a>
+  Made with ♥ by <a href="https://www.linkedin.com/in/lucaszsantos/">Lucas Zanotelli</a>
 </p>
 
